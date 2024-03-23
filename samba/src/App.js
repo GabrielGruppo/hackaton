@@ -3,6 +3,7 @@ import './App.css';
 import Login from './components/home'
 import { useState } from 'react';
 import { ethers } from "https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethers.min.js";
+import web3 from './web3';
 
 function App() {
   const [walletAddress, setWalletAddress] = useState("");
