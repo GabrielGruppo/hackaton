@@ -14,25 +14,26 @@
 }
 
 .App-header {
-  background-color: #aee7c8;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(5px + 2vmin);
+  color: rgb(82, 124, 48);
 }
 
 .App-link {
   color: #61dafb;
 }
 button {
-  font-size: 36px;
+  font-size: 20px;
   padding: 16px;
-  border-radius: 16px;
-  background-color: red;
+  border-radius: 5px;
+  background-color: rgb(80, 131, 87);
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
